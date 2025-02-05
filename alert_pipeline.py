@@ -1,23 +1,3 @@
-# Centralized Alerting Pipeline
-
-## Problem Statement
-# Managing alerts across multiple systems can lead to fragmented data, delayed responses, and manual oversight.
-# A centralized pipeline is needed to consolidate alerts, manage suppression rules, and ensure timely notifications.
-
-## Solution
-# We'll build a Python-based alerting pipeline with:
-# - API integration to receive alerts
-# - Suppression mechanism via command-line tool
-# - Email notifications for critical alerts
-
-# Architecture Diagram
-# [Placeholder for architecture diagram - describe with tools like draw.io or Lucidchart]
-
-# Components:
-# 1. Alert Ingestion API
-# 2. Alert Processor with suppression logic
-# 3. Notification Service
-
 import json
 from flask import Flask, request, jsonify
 
