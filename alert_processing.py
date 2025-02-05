@@ -1,13 +1,3 @@
-# Centralized Alerting Pipeline
-
-## Problem Statement
-# Managing alerts from multiple environments posed challenges due to inconsistent suppression mechanisms and manual intervention.
-
-## Solution
-# Developed a centralized alerting pipeline using Python, Kafka, and a custom CLI tool for alert suppression with email notifications.
-
-# Python Script for Alert Processing
-
 import json
 import smtplib
 from kafka import KafkaConsumer, KafkaProducer
