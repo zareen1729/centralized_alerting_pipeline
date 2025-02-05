@@ -12,6 +12,8 @@ Notification Service: Sends email notifications for active alerts.
 
 ## Architecture Diagram
 
+
+```plaintext
 +----------------------+       +--------------------------+       +------------------------+
 |  Alert Ingestion API | ----> | Alert Processor (Rules)  | ----> | Notification Service   |
 +----------------------+       +--------------------------+       +------------------------+
