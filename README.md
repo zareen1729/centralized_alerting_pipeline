@@ -1,4 +1,4 @@
-# centralized_alerting_pipeline
+# Centralized Alerting Pipeline
 
 ## Overview
 This project demonstrates a centralized alerting system to manage and suppress alerts efficiently.
